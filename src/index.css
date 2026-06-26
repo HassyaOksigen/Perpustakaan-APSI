@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fcf9f8;
+  --color-primary: #002f59;
+  --color-primary-container: #00467f;
+  --color-on-surface: #1c1b1b;
+  --color-on-surface-variant: #424750;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container-highest: #e5e2e1;
+  --color-surface-container: #f0eded;
+  --color-outline-variant: #c2c6d1;
+
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
